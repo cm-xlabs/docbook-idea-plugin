@@ -1,0 +1,6 @@
+# IDEA
+*.iws
+# Backups
+*.*~
+# Maven target dirs
+target/
