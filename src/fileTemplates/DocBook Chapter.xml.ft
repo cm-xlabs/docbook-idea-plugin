@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<chapter version="5.0-subset coremedia-1.0" xml:lang="en"
+<chapter version="5.0"
+         xml:lang="en"
          xml:id="${PACKAGE_NAME}${NAME}"
          xmlns:xi="http://www.w3.org/2001/XInclude" 
          xmlns="http://docbook.org/ns/docbook"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
          xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:schemaLocation="http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd"
          >
   <title></title>
 </chapter>

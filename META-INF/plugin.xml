@@ -2,7 +2,7 @@
   <name>IDEA DocBook</name>
   <description>Support for the DocBook format.</description>
   <version>1.0</version>
-  <vendor url="http://documentation.coremedia.com"
+  <vendor url="https://github.com/CoreMedia/docbook-idea-plugin"
           email="documentation@coremedia.com">CoreMedia</vendor>
   <idea-version since-build="IU-103.255"/>
 

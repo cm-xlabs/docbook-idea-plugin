@@ -1,44 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book version="5.0-subset coremedia-1.0"
+<book version="5.0"
       xml:lang="en"
       xml:id="${PACKAGE_NAME}${NAME}"
       xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns="http://docbook.org/ns/docbook"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xmlns:xlink="http://www.w3.org/1999/xlink"
+      xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml5.0/xsd/docbook.xsd"
     >
   <info>
+    <productnumber>
+      <?eval ${project.version}?>
+    </productnumber>
     <title>${NAME}</title>
-    <legalnotice>
-      <para>
-        <emphasis role="strong">Copyright</emphasis>
-        CoreMedia AG © 2010
-      </para>
-      <para>CoreMedia AG</para>
-      <para>Ludwig-Erhard-Straße 18</para>
-      <para>20459 Hamburg</para>
-      <para>
-        <emphasis role="strong">International</emphasis>
-      </para>
-      <para>All rights reserved. No part of this manual or the corresponding program may be reproduced or copied in any
-        form (print, photocopy or other process) without the written permission of CoreMedia AG.
-      </para>
-      <para>
-        <emphasis role="strong">Germany</emphasis>
-      </para>
-      <para>Alle Rechte vorbehalten. CoreMedia und weitere im Text erwähnte CoreMedia Produkte sowie die entsprechenden
-        Logos sind Marken oder eingetragene Marken der CoreMedia AG in Deutschland. Alle anderen Namen von Produkten
-        sind Marken der jeweiligen Firmen.
-      </para>
-      <para>Das Handbuch bzw. Teile hiervon sowie die dazugehörigen Programme dürfen in keiner Weise (Druck, Fotokopie
-        oder sonstige Verfahren) ohne schriftliche Genehmigung der CoreMedia AG reproduziert oder vervielfältigt werden.
-        Unberührt hiervon bleiben die gesetzlich erlaubten Nutzungsarten nach dem UrhG.
-      </para>
-      <para>
-        <emphasis role="strong">Licenses and Trademarks</emphasis>
-      </para>
-      <para>All trademarks acknowledged.</para>
-    </legalnotice>
+    <xi:include href="../../../target/temp/docbkx/content/legalnotice.xml" xpointer="legalnotice"/>
   </info>
   <xi:include href='glossary.xml'/>
   <index/>
