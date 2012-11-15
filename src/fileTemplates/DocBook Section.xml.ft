@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section version="5.0" xml:lang="en"
-         xml:id="${PACKAGE_NAME}${NAME}"
-         xmlns="http://docbook.org/ns/docbook"
-         xmlns:xi="http://www.w3.org/2001/XInclude"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns:xlink="http://www.w3.org/1999/xlink">
+<section  xml:id="${PACKAGE_NAME}${NAME}"
+          version="5.0"
+          xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:xi="http://www.w3.org/2001/XInclude"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xsi:schemaLocation="
+           http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/rnc/docbookxi.rnc
+           http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
+           http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd
+           ">
 <title></title>
 <para></para>
 </section>

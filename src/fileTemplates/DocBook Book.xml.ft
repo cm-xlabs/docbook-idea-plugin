@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<book version="5.0"
+<book xml:id="${PACKAGE_NAME}${NAME}"
+      version="5.0"
       xml:lang="en"
-      xml:id="${PACKAGE_NAME}${NAME}"
-      xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns="http://docbook.org/ns/docbook"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
       xmlns:xlink="http://www.w3.org/1999/xlink"
-      xsi:schemaLocation="http://docbook.org/ns/docbook http://www.docbook.org/xml5.0/xsd/docbook.xsd"
+      xsi:schemaLocation="
+        http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/rnc/docbookxi.rnc
+        http://docbook.org/ns/docbook http://www.docbook.org/xml/5.0/xsd/docbook.xsd
+        http://www.w3.org/1999/xlink http://www.docbook.org/xml/5.0/xsd/xlink.xsd
+"
     >
   <info>
     <productnumber>
       <?eval ${project.version}?>
     </productnumber>
     <title>${NAME}</title>
-    <xi:include href="../../../target/temp/docbkx/content/legalnotice.xml" xpointer="legalnotice"/>
+    <xi:include href="../../../target/tmp/shared-resources/docbkx/content/legalnotice.xml" xpointer="legalnotice"/>
   </info>
-  <xi:include href='glossary.xml'/>
+  <xi:include href="../../../target/tmp/shared-resources/docbkx/content/support7.xml"/>
+  <xi:include href="../../../target/tmp/shared-resources/docbkx/content/glossary_filtered.xml"/>
   <index/>
 </book>

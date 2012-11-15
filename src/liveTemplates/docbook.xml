@@ -105,7 +105,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="ifb" value="&lt;figure&gt;&#10;&lt;title&gt;&#10;$END$&#10;&lt;/title&gt;&#10;  &lt;mediaobject&gt;&#10;    &lt;imageobject&gt;&#10;      &lt;imagedata fileref=&quot;image.png&quot;/&gt;&#10;    &lt;/imageobject&gt;&#10;  &lt;/mediaobject&gt;&#10;&lt;/figure&gt;" description="Insert a figure block" toReformat="false" toShortenFQNames="true">
+  <template name="ifb" value="&lt;figure&gt;&#10;&lt;title&gt;&#10;$END$&#10;&lt;/title&gt;&#10;  &lt;mediaobject&gt;&#10;    &lt;imageobject&gt;&#10;      &lt;imagedata width=&quot;95%&quot; fileref=&quot;image.png&quot;/&gt;&#10;    &lt;/imageobject&gt;&#10;  &lt;/mediaobject&gt;&#10;&lt;/figure&gt;" description="Insert a figure block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
@@ -235,7 +235,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="itc" value="&lt;table&gt;&#10;  &lt;title&gt;&#10;  $END$&#10;  &lt;/title&gt;&#10;  &lt;tgroup&gt;&#10;    &lt;colspec colname=&quot;&quot; colwidth=&quot;&quot;/&gt;&#10;    &lt;colspec colname=&quot;&quot; colwidth=&quot;&quot;/&gt;&#10;    &lt;thead&gt;&#10;      &lt;row&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;    &lt;/thead&gt;&#10;    &lt;tbody&gt;&#10;      &lt;row&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;    &lt;/tbody&gt;&#10;  &lt;/tgroup&gt;&#10;&lt;/table&gt;  " description="Insert a table block in cals style" toReformat="false" toShortenFQNames="true">
+  <template name="itc" value="&lt;table&gt;&#10;  &lt;title&gt;&#10;  $END$&#10;  &lt;/title&gt;&#10;  &lt;tgroup cols=&quot;2&quot;&gt;&#10;    &lt;colspec colname=&quot;1&quot; colwidth=&quot;&quot;/&gt;&#10;    &lt;colspec colname=&quot;2&quot; colwidth=&quot;&quot;/&gt;&#10;    &lt;thead&gt;&#10;      &lt;row&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;    &lt;/thead&gt;&#10;    &lt;tbody&gt;&#10;      &lt;row&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;    &lt;/tbody&gt;&#10;  &lt;/tgroup&gt;&#10;&lt;/table&gt;  " description="Insert a table block in cals style" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
