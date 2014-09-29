@@ -1,0 +1,86 @@
+*DEFAULT
+        format  block
+        subindent 2
+        entry-break 1
+        exit-break 1
+        element-break 1
+        normalize no
+        wrap-length 0
+
+*DOCUMENT
+        format block
+        subindent 0
+        entry-break 0
+        exit-break 1
+        element-break 1
+        normalize no
+        wrap-length 0
+
+para entry
+        format block
+        entry-break 1
+        exit-break 1
+        normalize yes
+        wrap-length 100
+        element-break 0
+
+remark
+        format block
+        entry-break 0
+        exit-break 0
+        normalize no
+        wrap-length 0
+        element-break 0
+
+informaltable table tbody thead tfoot tgroup colspec row entrytbl tr caption
+    format block
+    normalize no
+    entry-break 1
+    element-break 1
+    exit-break 1
+    subindent 2
+
+indexterm
+    format block
+    entry-break 0
+    exit-break 0
+    element-break 1
+
+listitem varlistentry note caution tip warning important
+    format block
+    entry-break 1
+    exit-break 1
+
+book bookinfo appendix \
+abstract article articleinfo chapter
+    format block
+    entry-break 1
+    exit-break 1
+    element-break 2
+
+appendix section 
+    format block
+    entry-break 1
+    exit-break 1
+    element-break 2
+
+citation emphasis literal command option replaceable \
+xref link ulink filename quote guilabel \
+guimenu guibutton guimenuitem methodname \
+subscript superscript filename firstterm \
+application classname productname primary secondary \
+code inlinemediaobject property package \
+constant parameter symbol userinput guiicon \
+envar token type uri returnvalue varname screen keycombo
+        format inline
+
+title bridgehead
+        format block
+        entry-break 0
+        exit-break 0
+        normalize yes
+        wrap-length 72
+        element-break 0
+
+programlisting
+    format verbatim

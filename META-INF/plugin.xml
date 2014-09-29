@@ -15,11 +15,14 @@
   </project-components>
 
   <actions>
-    <!-- Add your actions here -->
+    <group id="com.coremedia.docbookPlugin" text="DocBook Tools" description="Tools for work with DocBook">
+      <add-to-group group-id="MainMenu" anchor="last"  />
+      <action id="docbookPlugin.Format" class="com.coremedia.docbook.idea.FormatDocBook" text="Format DocBook" description="Formats the DocBook Source" />
+    </group>
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
 <!--    <standardResourceProvider implementation="com.coremedia.docbook.idea.DocBookResourceProvider"/>   -->
     <defaultLiveTemplatesProvider implementation="com.coremedia.docbook.idea.DocBookLiveTemplatesProvider"/>
   </extensions>
-        </idea-plugin>
+</idea-plugin>

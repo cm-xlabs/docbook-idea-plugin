@@ -52,7 +52,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="iil" value="&lt;itemizedlist&gt;&#10;  &lt;listitem&gt;&#10;   $SELECTION$  &#10;  &lt;/listitem&gt;&#10;&lt;/itemizedlist&gt;" description="Insert a bullet list" toReformat="false" toShortenFQNames="true">
+  <template name="iil" value="&lt;itemizedlist&gt;&#10;  &lt;listitem&gt;&#10;    &lt;para&gt;&#10;     $SELECTION$  &#10;    &lt;/para&gt;&#10;  &lt;/listitem&gt;&#10;&lt;/itemizedlist&gt;" description="Insert a bullet list" toReformat="false" toShortenFQNames="true">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_CODE" value="false" />
@@ -105,7 +105,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="ifb" value="&lt;figure&gt;&#10;&lt;title&gt;&#10;$END$&#10;&lt;/title&gt;&#10;  &lt;mediaobject&gt;&#10;    &lt;imageobject&gt;&#10;      &lt;imagedata width=&quot;95%&quot; fileref=&quot;image.png&quot;/&gt;&#10;    &lt;/imageobject&gt;&#10;  &lt;/mediaobject&gt;&#10;&lt;/figure&gt;" description="Insert a figure block" toReformat="false" toShortenFQNames="true">
+  <template name="ifb" value="&lt;figure&gt;&#10;&lt;title&gt;&#10;$END$&#10;&lt;/title&gt;&#10;  &lt;mediaobject&gt;&#10;    &lt;imageobject role=&quot;fo&quot;&gt;&#10;      &lt;imagedata width=&quot;95%&quot; scalefit=&quot;1&quot; fileref=&quot;image.png&quot;/&gt;&#10;    &lt;/imageobject&gt;&#10;    &lt;imageobject role=&quot;html&quot;&gt;&#10;      &lt;imagedata contentwidth=&quot;100%&quot; scalefit=&quot;1&quot; fileref=&quot;image.png&quot;/&gt;&#10;    &lt;/imageobject&gt;&#10;  &lt;/mediaobject&gt;&#10;&lt;/figure&gt;" description="Insert a figure block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
@@ -157,7 +157,7 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="iol" value="&lt;orderedlist&gt;&#10;  &lt;listitem&gt;&#10;  $END$&#10;  &lt;/listitem&gt;&#10;&lt;/orderedlist&gt;  " description="Insert an ordered list" toReformat="false" toShortenFQNames="true">
+  <template name="iol" value="&lt;orderedlist&gt;&#10;  &lt;listitem&gt;&#10;    &lt;para&gt;&#10;    $END$&#10;    &lt;/para&gt;&#10;  &lt;/listitem&gt;&#10;&lt;/orderedlist&gt;  "  description="Insert an ordered list" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="false" />
       <option name="JAVA_COMMENT" value="false" />
