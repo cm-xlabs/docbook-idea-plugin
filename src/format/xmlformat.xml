@@ -1134,6 +1134,9 @@ class XMLFormatter
       flush_pending(indent)
       emit_break(0) unless prev_child_is_text && !block_normalize
       set_block_break_type("element-break")
+      if child["type"] == "comment"
+        add_to_doc(" ")
+      end
       add_to_doc(child["content"])
 
     end
