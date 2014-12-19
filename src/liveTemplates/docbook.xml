@@ -235,6 +235,32 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="itp" value="&lt;table&gt;&#10;  &lt;title&gt;&#10;  $END$&#10;  &lt;/title&gt;&#10;  &lt;tgroup cols=&quot;2&quot;&gt;&#10;    &lt;colspec colnum=&quot;1&quot; colname=&quot;term&quot; colwidth=&quot;2*&quot;/&gt;&#10;    &lt;colspec colnum=&quot;2&quot; colname=&quot;description&quot; colwidth=&quot;8*&quot;/&gt;&#10;    &lt;tbody&gt;&#10;      &lt;row&gt;&lt;?dbhtml bgcolor=&quot;#DBDBDB&quot; ?&gt;&lt;?dbfo bgcolor=&quot;#DBDBDB&quot; ?&gt;&#10;        &lt;entry namest=&quot;term&quot; nameend=&quot;description&quot;&gt;&#10;          &lt;emphasis role=&quot;strong&quot;&gt;&lt;property&gt;&lt;/property&gt;&lt;/emphasis&gt;&#10;        &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;      &lt;row&gt;&#10;      &lt;entry&gt;&#10;        &lt;emphasis role=&quot;strong&quot;&gt;&lt;/emphasis&gt;&#10;      &lt;/entry&gt;&#10;      &lt;entry&gt;&#10;      &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;       &lt;row&gt;&#10;      &lt;entry&gt;&#10;        &lt;emphasis role=&quot;strong&quot;&gt;&lt;/emphasis&gt;&#10;      &lt;/entry&gt;&#10;      &lt;entry&gt;&#10;      &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;    &lt;/tbody&gt;&#10;  &lt;/tgroup&gt;&#10;&lt;/table&gt;  " description="Insert a property table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="CSS" value="false" />
+      <option name="JSP" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="ColdFusion" value="false" />
+      <option name="PHP" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="ASPECTJ" value="false" />
+      <option name="ACTION_SCRIPT" value="false" />
+      <option name="MXML" value="false" />
+      <option name="GSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
   <template name="itc" value="&lt;table&gt;&#10;  &lt;title&gt;&#10;  $END$&#10;  &lt;/title&gt;&#10;  &lt;tgroup cols=&quot;2&quot;&gt;&#10;    &lt;colspec colname=&quot;1&quot; colwidth=&quot;&quot;/&gt;&#10;    &lt;colspec colname=&quot;2&quot; colwidth=&quot;&quot;/&gt;&#10;    &lt;thead&gt;&#10;      &lt;row&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;    &lt;/thead&gt;&#10;    &lt;tbody&gt;&#10;      &lt;row&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;        &lt;entry&gt;&#10;        &lt;/entry&gt;&#10;      &lt;/row&gt;&#10;    &lt;/tbody&gt;&#10;  &lt;/tgroup&gt;&#10;&lt;/table&gt;  " description="Insert a table block in cals style" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="false" />

@@ -71,7 +71,8 @@ subscript superscript filename firstterm \
 application classname productname primary secondary \
 code inlinemediaobject property package \
 constant parameter symbol userinput guiicon \
-envar token type uri returnvalue varname screen keycombo
+envar token type uri returnvalue varname screen \
+olink keycombo
         format inline
 
 title bridgehead
